@@ -1,0 +1,57 @@
+python OOP
+
+class 
+
+properties - features of the class 
+methods - have brackets after their name 
+attributes
+
+example 
+class Account 
+properties - balance and name 
+methods - deposit()
+
+constructor - used to help initialise objects of the class via the init method
+first parameter self is going to receive a ref. to the class object that gets created by the user. inside the init method we can use self to create instance variables and also refer to other methods inside the class. 
+
+def __init__(self, name, balance):
+#initialize an account object
+#self is first object to be initialized - create attributes using the self parameter (i.e. self.nameofattribute)
+#initializer method needs to receive a name and a balance inorder to initialize an object of class Account 
+
+#call the class and assign it to a variable name (e.g. my_fruit=Fruit())
+#access attribute values by typing name of object and attribute 
+#methods are functions related to objects. when we pass self parameter from method to method - can access the same attributes defined in init inside the body of other methods 
+
+#ass
+
+
+every method in a class should have a doc string/comment
+
+functions embeded inside a class are called methods
+
+add validity methods (i.e. to check input type) and raise ValueError or TypeError
+
+create instance variables for class using self.xxxxx = xxxxx (creates attributes)
+
+instance method of the class - self parameter 
+
+INIT!!
+init is where we initialize attributes
+init is automatically executed with every new class instance 
+
+
+SELF PARAMETER!!
+self always represents the current instance of the class. 
+when passed from method to method, we still refer to the same object 
+
+
+OOP 
+- a set of programming principles 
+- deals with objects 
+- bundle data and functionality to create objects that interact with one another 
+- methods are functions inside a class 
+- attributes are variables with the "self." prefix
+- objects are variables assigned to classess
+
+ 

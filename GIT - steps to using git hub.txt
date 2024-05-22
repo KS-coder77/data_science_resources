@@ -1,0 +1,21 @@
+steps to using git hub 
+
+clone a repo - make a copy of the repo in your system
+
+fork a repo - means you are copying the repo to your github account 
+
+pull a repo - means you are fetching the last modified repo
+
+push a repo - means you are returning the repo after modifying it 
+
+commit a repo - means you are saving repo changes on local system not remnote repo.
+
+
+IF REPO CREATED ON GITHUB 
+1. pull repo in github desktop
+2. open jupyter notebook and make edits 
+3. fetch repo in github desktop (marries any changes made in notebook)
+4. when edits complete - download jupyter notebook as py file. move py file to project folder and commit to main in github desktop and push to github as py file NOT pynb. 
+
+IF CREATING A NEW REPO ON GITHUB 
+1. clone to local system first, then continue with steps 2 - 4 above. 

@@ -1,0 +1,61 @@
+AWS
+cloud deployment models
+global cloud platform 
+
+
+key concepts 
+1. Infrastructure as a Service(IaaS) - provides max. control
+
+2. Hybrid (Platform as a Service (PaaS) - combo
+
+3. Software as a Service (SaaS) - minimum maintenance 
+
+4. Cloud storage platform 
+
+- per hour billing 
+- easy sign up
+- 
+AWS global infrastructure
+
+EC2 - elastic compute cloud
+gives you AWS servers 
+
+VPC - virtual private cloud 
+create networks in the cloud and then run your servers in the networks
+
+S3 - simple storage service
+let's you upload and share/store files
+
+RDS - relational database service 
+SQL server, oracle, PostGres ....etc.
+
+Route 53
+DNS service (global)
+
+ELB - elastic load balancing 
+
+autoscaling 
+_________________________________________________________
+Stats and probability for ML by Janani Ravi
+
+discrete data - info. that can only take certain values (i.e. fixed values) - data is best shown on bar or pie charts
+
+continuous data - can take any value and can change over time - data is best shown on a line graph 
+
+measure of central tendency 
+mean - single best value to represent data (b/c considers every point in data), but vulnerable to outliers
+depict via boxplot 
+
+median - value such that 50% of data on either side (i.e. sort data and then retrieve middle value)
+more robust to outliers, but doesn't consider every data point 
+
+mode - most frequent value in a dataset 
+depict via histogram
+typically used with categorical data 
+not great for continuous data. the data would need to be discretized and binned first before computing mode.
+
+Measures of dispersion 
+1. range (max-min). but ignores the mean and influenced by outliers
+2. IQR
+3. SD (aka square root of var) and Var (considers the mean)
+

@@ -1,0 +1,31 @@
+ML problem types
+
+Machine learning problems can be broadly categorized into several types based on the nature of the learning task and the desired output. Here are some of the main types:
+
+1. **Supervised Learning**:
+   - **Classification**: The goal is to predict a categorical label or class for new data points based on past observations. Example: spam email classification, image classification.
+   - **Regression**: The goal is to predict a continuous numerical value for new data points based on past observations. Example: predicting house prices, predicting stock prices.
+
+2. **Unsupervised Learning**:
+   - **Clustering**: The goal is to group similar data points together based on their characteristics without using predefined labels. Example: customer segmentation, document clustering.
+   - **Dimensionality Reduction**: The goal is to reduce the number of features (dimensions) in the dataset while preserving important information. Example: principal component analysis (PCA), t-distributed stochastic neighbor embedding (t-SNE).
+
+3. **Semi-Supervised Learning**:
+   - Combines elements of supervised and unsupervised learning. The dataset contains both labeled and unlabeled data, and the model aims to learn patterns from both types of data.
+
+4. **Reinforcement Learning**:
+   - The goal is for an agent to learn how to take actions in an environment in order to maximize some notion of cumulative reward. Example: training a game-playing AI, training robots to perform tasks.
+
+5. **Self-Supervised Learning**:
+   - A type of unsupervised learning where the model is trained to predict a part of the input from another part of the input. Example: predicting missing words in a sentence from the surrounding words.
+
+6. **Transfer Learning**:
+   - A technique where a model trained on one task is reused as the starting point for a model on a second task. This can be especially useful when the second task has limited data.
+
+7. **Anomaly Detection**:
+   - The goal is to identify outliers or anomalies in the data that do not conform to expected patterns. Example: detecting fraudulent transactions, detecting faults in machinery.
+
+8. **Instance-Based Learning**:
+   - The model memorizes the training examples and predicts the output for new examples based on their similarity to the training examples. Example: k-nearest neighbors (KNN).
+
+Each of these problem types requires different algorithms, techniques, and evaluation metrics. The choice of problem type depends on the nature of the data, the goals of the analysis, and the available computational resources.

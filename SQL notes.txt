@@ -1,0 +1,39 @@
+SQL notes
+
+Type of Joins	Description
+INNER JOIN	Returns only the rows with matching values from both tables.
+LEFT JOIN	Returns all the rows from the left table and the matching rows from the right 		table.
+RIGHT JOIN	Returns all the rows from the right table and the matching rows from the left 		table.
+FULL OUTER JOIN	Returns all rows when there is a match in either the left or the right table. 		If there is no match, NULL values are returned for columns from the table 		without a match.
+
+When writing queries in SQL, following a methodical approach can help ensure accuracy, efficiency, and maintainability of your code. Here are some methodical tips to consider:
+
+1. **Understand the Requirements**: Clearly understand the requirements of the query you need to write. Identify the data you need to retrieve, the conditions to apply, and any transformations or aggregations required.
+
+2. **Plan the Query Logic**: Plan the logic of your query before writing any code. Break down complex requirements into smaller, manageable steps and consider the order of operations.
+
+3. **Use Formatting and Comments**: Use proper formatting and comments to make your queries readable and understandable. Indent code blocks, use consistent casing, and add comments to explain the purpose of each section.
+
+4. **Start with SELECT**: Begin by writing the SELECT statement to specify the columns you want to retrieve. Be specific and avoid using SELECT * to fetch all columns, unless necessary.
+
+5. **Add Filtering Conditions**: Use the WHERE clause to filter rows based on specific criteria. Use logical operators (AND, OR) and parentheses to combine multiple conditions accurately.
+
+6. **Handle NULL Values**: Account for NULL values appropriately in your queries. Use IS NULL and IS NOT NULL to check for NULL values, and handle them accordingly in calculations or comparisons.
+
+7. **Avoid Ambiguity**: Use table aliases to clarify which tables columns belong to, especially when querying from multiple tables. This improves readability and avoids ambiguity.
+
+8. **Use Joins Effectively**: Use JOIN clauses to combine data from multiple tables when necessary. Choose the appropriate join type (INNER, LEFT, RIGHT, FULL) based on your requirements.
+
+9. **Aggregate Data Carefully**: When using aggregate functions (e.g., SUM, AVG, COUNT), ensure that you group data correctly using the GROUP BY clause. Be aware of how grouping affects result sets and aggregate calculations.
+
+10. **Order Results as Needed**: Use the ORDER BY clause to sort query results according to specific columns. Specify the sorting order (ASC or DESC) for each column as needed.
+
+11. **Limit Results if Necessary**: Use the LIMIT (or equivalent) clause to restrict the number of rows returned by your query. This can be useful for performance optimization or displaying paginated results.
+
+12. **Test Query Logic**: Test your queries against sample data to ensure they produce the expected results. Verify that the output meets the requirements and handles edge cases appropriately.
+
+13. **Optimize Performance**: Consider performance implications when writing queries. Use indexes, optimize joins, and avoid unnecessary calculations or data retrieval to improve query performance.
+
+14. **Review and Refactor**: Review your SQL queries for correctness, readability, and efficiency. Refactor code as needed to improve clarity and maintainability.
+
+By following these methodical tips, you can write SQL queries that are clear, efficient, and reliable, making it easier to work with databases and extract the information you need.

@@ -1,0 +1,25 @@
+large datasets - ML notes
+
+When dealing with large datasets with over a million rows in machine learning (ML), efficiency becomes crucial. Here are some tips to handle large datasets effectively:
+
+1. **Use Incremental Learning**: Instead of training on the entire dataset at once, use incremental learning techniques where you update the model parameters iteratively on smaller batches of data. This reduces memory usage and allows models to be trained on large datasets that cannot fit into memory.
+
+2. **Feature Selection or Extraction**: Prioritize feature selection or extraction techniques to reduce the dimensionality of the dataset. This not only speeds up training but can also improve model performance by focusing on the most relevant features.
+
+3. **Use Distributed Computing**: Utilize frameworks like Apache Spark or Dask for distributed computing. These frameworks can parallelize computations across multiple machines or processors, enabling efficient processing of large datasets.
+
+4. **Data Preprocessing**: Optimize data preprocessing steps to minimize computational overhead. Use techniques like data normalization, scaling, and imputation efficiently.
+
+5. **Model Selection**: Choose models that are computationally efficient for large datasets. For example, linear models and tree-based algorithms like Random Forests or Gradient Boosting Machines (GBMs) often scale well to large datasets.
+
+6. **Cross-Validation Strategies**: Employ efficient cross-validation strategies such as k-fold cross-validation with smaller values of k. This reduces the computational cost of model evaluation while still providing reliable estimates of performance.
+
+7. **Feature Engineering**: Focus on feature engineering techniques that are computationally efficient. Avoid computationally expensive transformations or feature generation methods unless they provide significant value to the model.
+
+8. **Sampling Techniques**: If training on the entire dataset is not feasible due to computational constraints, consider using sampling techniques such as random sampling or stratified sampling to create smaller representative subsets for model training.
+
+9. **Model Persistence**: Serialize trained models to disk using efficient serialization libraries like joblib or pickle. This allows you to reuse trained models without retraining them on the entire dataset.
+
+10. **Monitoring and Optimization**: Monitor memory usage, computation time, and model performance throughout the ML pipeline. Optimize code and algorithms iteratively based on performance metrics and computational constraints.
+
+By incorporating these tips, you can effectively handle large datasets in machine learning tasks while minimizing computational overhead and maximizing model performance.
